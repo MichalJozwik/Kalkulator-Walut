@@ -1,0 +1,62 @@
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Przelicznik Walut</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body class="body">
+    <div class="przelicznik">
+
+    <form class="js-form ">
+
+        <h1 class="form__heder">
+            Przelicznik walut
+        </h1>
+        <p>
+            <lebel>
+                <span class="form__labelText">
+                    Kwota w zł*:
+                </span>
+                <input class="form__filed js-amount" placeholder="Wpisz kwotę w zł" type="number" required step="0.01">
+            </lebel>
+        </p>
+
+        <p>
+            <label>
+
+                <span class="form__labelText">
+                    Waluta
+                    </<span>
+
+                    <select class="form__filed js-currency">
+                        <option value="EUR">Euro</option>
+                        <option value="GBP">Funt brytyjski</option>
+                        <option value="USD">Dolar amerykański</option>
+                    </select>
+            </label>
+        </p>
+
+        <p>
+            <button class="form__button">Przelicz!</button>
+        </p>
+        <p class="form__info">Kursy pochodzą ze strony NBP z dnia 11.03.2023 </p>
+
+        </P>
+        <p>Wynik: <strong class="js-result"></strong> </p>
+
+    </form>
+</div>
+
+
+</body>
