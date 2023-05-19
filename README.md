@@ -1,5 +1,5 @@
 ﻿# Kalkulator - Walut
-CURRENCY EXCHANGE
+# CURRENCY EXCHANGE
 ![a main page screenshot](images/converter.png)
 
 ## How does it work?
