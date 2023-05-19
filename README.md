@@ -1,5 +1,7 @@
 ﻿# Kalkulator - Walut
 # CURRENCY EXCHANGE
+![a main page screenshot](./image/converter.jpg).
+
 ## How does it work?
 In the first field, enter the amount in Polish zloty, and in the second field, select the currency you want to convert to. Then click 'Convert' and get the results.
 ## Used features
