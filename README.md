@@ -5,8 +5,8 @@
 
 # DEMO
 
-https://michaljozwik.github.io/Kalkulator/
 
+https://michaljozwik.github.io/Kalkulator-Walut/
 
 ## How does it work?
 In the first field, enter the amount in Polish zloty, and in the second field, select the currency you want to convert to. Then click 'Convert' and get the results.
